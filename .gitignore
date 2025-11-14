@@ -1,0 +1,48 @@
+# ============ Unity specific ============
+
+[LFS=Unity]
+[LFS=Unity-meta]
+
+# Ignore generated folders
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+MemoryCaptures/
+Recordings/
+
+# Visual Studio
+.vs/
+*.csproj
+*.sln
+*.user
+*.unityproj
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Unity cache
+*.mdb
+*.pdb
+*.pidb
+*.booproj
+*.svd
+
+# Crash Reports
+sysinfo.txt
+
+# LFS for big files
+*.png
+*.jpg
+*.fbx
+*.wav
+*.ogg
+*.mp3
+*.mp4
+*.psd
+*.tga
+*.gif
